@@ -70,8 +70,7 @@ Some example usage in the wild: [`alfred-npms`](https://github.com/sindresorhus/
 
 ## Publish to npm
 
-Instead of publishing your packages to [Packal](http://www.packal.org/), you can also publish them to [npm](https://npmjs.org). This way, your packages
-are only one simple `npm install` command away.
+Instead of publishing your packages to [Packal](http://www.packal.org), you can also publish them to [npm](https://npmjs.org). This way, your packages are only one simple `npm install` command away.
 
 Add [alfred-link](https://github.com/samverschueren/alfred-link) as dependency to your package and add it as `postinstall` script.
 
@@ -82,8 +81,8 @@ Add [alfred-link](https://github.com/samverschueren/alfred-link) as dependency t
   "description": "My awesome unicorn workflow",
   "author": {
     "name": "Sindre Sorhus",
-	"email": "sindresorhus@gmail.com",
-	"url": "sindresorhus.com"
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
   },
   "scripts": {
     "postinstall": "alfred-link"
